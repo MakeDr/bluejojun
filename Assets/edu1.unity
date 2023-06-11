@@ -138,17 +138,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b2da4d32174effc469d440498072f6df,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b2da4d32174effc469d440498072f6df,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b2da4d32174effc469d440498072f6df,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b2da4d32174effc469d440498072f6df,
         type: 3}
@@ -202,9 +202,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4306894857921031326, guid: b2da4d32174effc469d440498072f6df,
         type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6cd72181abb95e5459dc230ff363269c, type: 2}
+    - target: {fileID: -4306894857921031326, guid: b2da4d32174effc469d440498072f6df,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4bee9f94eafde14c9825786b1e67062, type: 2}
+    - target: {fileID: -4306894857921031326, guid: b2da4d32174effc469d440498072f6df,
+        type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 41ddddef646c73843b6bc20b58795781, type: 2}
+      objectReference: {fileID: 2100000, guid: fb36ac17892dff9428ee3cd70129cb6a, type: 2}
+    - target: {fileID: -4306894857921031326, guid: b2da4d32174effc469d440498072f6df,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3807758a5b917b141a7b078615d4763c, type: 2}
     - target: {fileID: -4306894857921031326, guid: b2da4d32174effc469d440498072f6df,
         type: 3}
       propertyPath: m_Materials.Array.data[4]
@@ -215,6 +230,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hina_Original (merge)
       objectReference: {fileID: 0}
+    - target: {fileID: 8405557835166990643, guid: b2da4d32174effc469d440498072f6df,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 104cc549a0e952841a3994b03cbf7e66, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2da4d32174effc469d440498072f6df, type: 3}
 --- !u!1 &962254542 stripped
@@ -262,7 +282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1335240066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -296,7 +316,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 93e4417bc3d1a1a42830e19a478e5c20, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -334,8 +354,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335240065}
   m_LocalRotation: {x: -0.032251876, y: -0.017153168, z: 0.00332072, w: 0.9993271}
-  m_LocalPosition: {x: 1.962, y: 2.694, z: -1.528}
-  m_LocalScale: {x: 30.733707, y: 0.025558, z: 34.829014}
+  m_LocalPosition: {x: 0.543, y: 0.997, z: -0.614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -582,14 +602,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991363315}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.245, y: 0.473, z: 1.397}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!114 &1991363319
 MonoBehaviour:
   m_ObjectHideFlags: 0
