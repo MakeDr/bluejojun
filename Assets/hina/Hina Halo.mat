@@ -107,6 +107,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texture:
+        m_Texture: {fileID: 2800000, guid: 90d2d68d3fd3ab34ebc5f9e69d564ac0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texturemouth:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -139,6 +147,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LP: 3
     - _Metallic: 0.84
     - _OcclusionStrength: 1
     - _PART: 0
@@ -158,7 +167,10 @@ Material:
     - __3: 0.2
     - __4: 0
     - __6: 0
+    - _huesper: 0.04
+    - _huesper2: 0.2
     - _ishair: 0
+    - _mouthshape: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -168,6 +180,7 @@ Material:
     - _Vector3: {r: 0, g: 0, b: 0, a: 0}
     - _Vector4: {r: 0, g: 0, b: 0, a: 0}
     - __4: {r: 0.9882354, g: 0.9019608, b: 0.8705883, a: 1}
+    - _skinhue: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &698418310735643597
 MonoBehaviour:
